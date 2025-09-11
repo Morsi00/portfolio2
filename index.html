@@ -4,247 +4,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Ahmed Morsi</title>
-
     <link rel="icon" href="img/logo_icon.png">
-
-
-    <!-- File CSS -->
-     <link rel="stylesheet" href="css/style.css">
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
     <div class="bg-lines">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
 
-
     <header>
-        <nav class="container">
-            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
-
+        <nav class="container" style="background-color: black;">
+            <a href="#" class="logo"><img src="img/logo.png" alt="Logo"></a>
             <div class="links" id="links">
-                <span class="close_menu"  onclick="Open_colose_Menu()"><i class="fa-solid fa-xmark"></i></span>
-                
-                
-                <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                <span class="close_menu" onclick="Open_colose_Menu( )"><i class="fa-solid fa-xmark"></i></span>
+                <a href="#" class="logo"><img src="img/logo.png" alt="Menu Logo"></a>
                 <a class="active" href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">services</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-
             <div class="icons">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <span class="icon_menu" onclick="Open_colose_Menu()"><i class="fa-solid fa-bars"></i></span>
-            
             </div>
         </nav>
     </header>
 
-
     <div class="hero">
         <div class="container">
             <div class="div_Text">
-                <h4>Hello, i'm</h4>
+                <h4>Hello, I'm</h4>
                 <h1><span>Ahmed .M</span></h1>
                 <h2>Web Developer</h2>
-                
-
                 <div class="btns">
-                    <a href="#" class="btn">hire me</a>
-                    <!-- <a href="#" class="btn_no_bg">Download Resume</a> -->
+                    <a href="#" class="btn">Hire Me</a>
                 </div>
             </div>
-
             <div class="div_img">
-                <img class="person" src="./img/تحويل_الصورة_بأسلوب_فني.png" alt="">
-                <img class="bg_img" src="img/bg_img_home.png" alt="">
-
+                <img class="person" src="./img/تحويل_الصورة_بأسلوب_فني.png" alt="Ahmed Morsi">
+                <img class="bg_img" src="img/bg_img_home.png" alt="Background Shape">
             </div>
         </div>
     </div>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="div_text w" style="width: 100%;">
-                <h5>about me</h5>
-
+                <h5>About Me</h5>
                 <h2><span>I'm a Developer</span></h2>
                 <h4>I Develop Web that Help People</h4>
-
-<p>Full Stack NET Developer
-
-I am a passionate Full Stack .NET Developer with a strong academic background in Artificial Intelligence from Menoufia University. I specialize in building scalable and efficient web applications using .NET Core, SQL Server, and modern front-end technologies like React and Tailwind CSS. My unique strength lies in combining my AI knowledge with software development to create smart, data-driven
-I have hands-on experience in working with SQL Server for database management, implementing RESTful APIs, and integrating secure JWT authentication. I also have experience collaborating with teams on real</p>
+                <p>Full Stack .NET Developer. I am a passionate Full Stack .NET Developer with a strong academic background in Artificial Intelligence from Menoufia University. I specialize in building scalable and efficient web applications using .NET Core, SQL Server, and modern front-end technologies. My unique strength lies in combining my AI knowledge with software development to create smart, data-driven solutions. I have hands-on experience in working with SQL Server for database management, implementing RESTful APIs, and integrating secure JWT authentication. I also have experience collaborating with teams on real-world projects.</p>
                 <ul>
                     <li><i class="fa-solid fa-check"></i> Web Development</li>
-
-                    <li><i class="fa-solid fa-check"></i> Sql services </li>
-
-                    <li><i class="fa-solid fa-check"></i> Digital Marketing </li>
-
-                    <li><i class="fa-solid fa-check"></i> Front End </li>
+                    <li><i class="fa-solid fa-check"></i> SQL Services</li>
+                    <li><i class="fa-solid fa-check"></i> Digital Marketing</li>
+                    <li><i class="fa-solid fa-check"></i> Front End</li>
                 </ul>
-
-                <!-- <a href="img/Mahmoud Reda.pdf" download class="btn">Dwonload CV</a> -->
             </div>
-
-            <!-- <div class="div_img">
-                <img src="" alt="">
-            </div> -->
         </div>
     </section>
 
-
-<section class="services">
-    <div class="container">
-        <div class="top_section">
-            <h2>Our <span>Services</span></h2>
-        </div>
-
-        <div class="boxs">
-            <div class="box">
-                <i class="fa-solid fa-paintbrush"></i>
-                <h3>Web Design</h3>
-                <p>Creative and responsive UI/UX design that ensures a smooth user experience across all devices.</p>
-                <a href="#" class="btn">Read More</a>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="top_section">
+                <h2>Our <span>Services</span></h2>
             </div>
-
-            <div class="box">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Web Development</h3>
-                <p>Building fast, secure, and scalable websites using modern front-end and back-end technologies.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <h3>Website Maintenance</h3>
-                <p>Ongoing updates, bug fixes, and performance optimization to keep your website running smoothly.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="boxs">
+                <div class="box">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>Web Design</h3>
+                    <p>Creative and responsive UI/UX design that ensures a smooth user experience across all devices.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building fast, secure, and scalable websites using modern front-end and back-end technologies.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Website Maintenance</h3>
+                    <p>Ongoing updates, bug fixes, and performance optimization to keep your website running smoothly.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <section class="expertise" id="expertise">
+        <div class="container">
+            <div class="top_section">
+                <h2>My <span>Expertise</span></h2>
+                <p>Technologies I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-container">
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <div class="skill-header"><span>C# & ASP.NET Core</span><span>90%</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-header"><span>JavaScript & HTML/CSS</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-header"><span>SQL Server & Entity Framework</span><span>80%</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-header"><span>Git & GitHub</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                        <li>Self-Learning</li>
+                        <li>Communication</li>
+                        <li>Critical Thinking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="projects">
+    <section class="education" id="education">
+        <div class="container">
+            <div class="top_section">
+                <h2>My <span>Education</span></h2>
+            </div>
+            <div class="education-item">
+                <h3>Faculty of Artificial Intelligence – Menoufia University</h3>
+                <p class="education-period">2023 – 2027</p>
+                <p>Bachelor’s Degree in Artificial Intelligence</p>
+                <p><strong>Grade:</strong> Very Good</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
         <div class="container">
             <div class="top_section">
                 <h2>Explore my Popular <span>Projects</span></h2>
             </div>
-
-
             <div class="project_box">
-                <img src="img/عرض_البورتفوليو_على_آيباد_جديد.png" alt="">
-
+                <img src="img/عرض_البورتفوليو_على_آيباد_جديد.png" alt="Drosak Platform">
                 <div class="text">
                     <h4><span>Website</span></h4>
-
                     <h3><a href="#">Drosak Platform – Learn Easily & Professionally</a></h3>
-<p>A smart platform to manage lessons, exams, and connect students with teachers online.</p>
+                    <p>A smart platform to manage lessons, exams, and connect students with teachers online.</p>
                     <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
-
-            
             <div class="project_box project_box_2">
-                <img src="img/عرض_كاسبر_على_آيباد_بدون_نص.png" alt="">
-
+                <img src="img/عرض_كاسبر_على_آيباد_بدون_نص.png" alt="PicSpace Platform">
                 <div class="text">
-                     <h4><span>Website</span></h4>
-
-    <!-- منصة الصور -->
-    <h3><a href="#">PicSpace – Share Your Moments</a></h3>
-    <p>A creative platform to upload, share, and explore photos from people all around the world.</p>
-    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
+                    <h4><span>Website</span></h4>
+                    <h3><a href="#">PicSpace – Share Your Moments</a></h3>
+                    <p>A creative platform to upload, share, and explore photos from people all around the world.</p>
+                    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
-
-
-            
             <div class="project_box">
-                <img src="img/عرض_متجر_ريدا_على_آيباد.png" alt="">
-
+                <img src="img/عرض_متجر_ريدا_على_آيباد.png" alt="ShopSmart Store">
                 <div class="text">
-                  <h4><span>Website</span></h4>
-
-    <!-- منصة التسوق الإلكتروني -->
-    <h3><a href="#">ShopSmart – Your Online Store</a></h3>
-    <p>An easy-to-use e-commerce platform to browse products, compare prices, and shop securely online.</p>
-    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
+                    <h4><span>Website</span></h4>
+                    <h3><a href="#">ShopSmart – Your Online Store</a></h3>
+                    <p>An easy-to-use e-commerce platform to browse products, compare prices, and shop securely online.</p>
+                    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
-
-
-
-            
             <div class="project_box project_box_2">
-                <img src="img/عرض_مطعم_على_آيباد_بدون_نص.png" alt="">
-
+                <img src="img/عرض_مطعم_على_آيباد_بدون_نص.png" alt="Foodiez Restaurant">
                 <div class="text">
-                     <h4><span>Website</span></h4>
-
-    <!-- منصة المطعم -->
-    <h3><a href="#">Foodiez – Your Online Restaurant</a></h3>
-    <p>A modern restaurant platform to explore the menu, order your favorite meals, and get fast delivery.</p>
-    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
+                    <h4><span>Website</span></h4>
+                    <h3><a href="#">Foodiez – Your Online Restaurant</a></h3>
+                    <p>A modern restaurant platform to explore the menu, order your favorite meals, and get fast delivery.</p>
+                    <a href="#" class="link"><i class="fa-solid fa-arrow-up"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-
- 
-
     <section class="contact" id="contact">
-        <div class="top_section">
-            <h2>Contact   <span>Me</span></h2>
-        </div>
-
         <div class="container">
-
             <div class="soial_contact">
                 <h2>Follow Me</h2>
                 <div class="links">
-                    <a href="mailto:Example@mail.com"><i class="fa-solid fa-envelope"></i> morsi6540@gmail.com</a>
-                    <a href="tel:+20123456789"><i class="fa-solid fa-phone"></i> 01550277545</a>
-                    <a href="https://www.facebook.com.99" target="_blank"><i class="fa-brands fa-facebook-f"></i> FaceBook</a>
-                    <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i> Twitter</a>
-                    <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i> instagram</a>
+                    <a href="mailto:morsi6540@gmail.com"><i class="fa-solid fa-envelope"></i> morsi6540@gmail.com</a>
+                    <a href="tel:01550277545"><i class="fa-solid fa-phone"></i> 01550277545</a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i> FaceBook</a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
                 </div>
             </div>
-
             <form action="">
                 <div class="inpts_form">
                     <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Mobile Number">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Mobile Number">
                     <input type="text" placeholder="Subject">
-
-                    <textarea name="" id="" rows="10" placeholder="Your Message Here ..."></textarea>
+                    <textarea rows="10" placeholder="Your Message Here ..."></textarea>
                 </div>
-
                 <button class="btn">Send Message</button>
             </form>
-
         </div>
     </section>
     
     <script src="js/main.js"></script>
-    
 </body>
 </html>
