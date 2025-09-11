@@ -1,17 +1,23 @@
-// add class active to header on scroll
+// Intersection Observer for progress bars animation
+const skillsSection = document.querySelector('.expertise');
+const progressBars = document.querySelectorAll('.progress');
 
-let header = document.querySelector("header")
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            progressBars.forEach(bar => {
+                bar.style.width = bar.parentElement.getAttribute('data-progress') + '%';
+            });
+            observer.unobserve(skillsSection); // Stop observing after animation
+        }
+    });
+}, {
+    threshold: 0.5 // Trigger when 50% of the section is visible
+});
 
-window.onscroll = function(){
-    if (this.scrollY >= 50) {
-        header.classList.add("active")
-    }else{
-        header.classList.remove("active")
-    }
+if (skillsSection) {
+    observer.observe(skillsSection);
 }
 
-let nav_links = document.getElementById("links");
-
-function Open_colose_Menu() {
-    nav_links.classList.toggle("active")
-}
+// You also need to add the data-progress attribute to your HTML
+// I will modify the HTML part for you.
